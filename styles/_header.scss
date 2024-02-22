@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1D2F30;
+    &__wraper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 0 177px;
+        max-width: 1512px;
+        margin: 0 auto;
+    }
+    &__artifacts {
+        background-image: url(../img/header-img.png);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    &__list-2 {
+        display: flex;
+        justify-content: center;
+        gap: 3.9854vw;
+        padding: 0;
+        margin: 0;
+    }
+    &__list-2 li {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    &__wraper-2 {
+        padding: 120px 177px 140px;
+        max-width: 1512px;
+        margin: 0 auto;
+    }
+    &__title-2 {
+        max-width: 688px;
+        margin: 0;
+        font-size: 60px;
+        font-family: Cormorant;
+        color: #FFFFFF;
+    }
+    &__text {
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+        max-width: 635px;
+    }
+    &__explore-arrow {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        color: #BAE249;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    &__list {
+        display: flex;
+        gap: 3.9854vw;
+        padding: 0;
+        margin: 0;
+    }
+    &__list li {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+    }
+    &__search-out {
+        display: flex;
+        gap: 66px;
+    }
+}

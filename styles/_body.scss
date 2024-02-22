@@ -1,0 +1,274 @@
+.main {
+    background-color: #1D2F30;
+    &__items {
+        display: flex;
+        column-gap: 5px;
+        padding: 60px 30px 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    &__block {
+        position: relative;
+        width: 270px;
+        height: 493px;
+        border: 1px solid #000;
+        margin: 20px;
+    }
+    &__img-plant {
+        background-image: url(../img/main-img-plant.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        width: 223px;
+        height: 120px;
+        position: absolute;
+        top: 30px;
+        left: 16px;
+    }
+    &__img-num {
+        background-image: url(../img/img-num.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 16px;
+        left: 16px;
+    }
+
+    &__img-flower {
+        background-image: url(../img/flower-img.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        width: 215px;
+        height: 130px;
+        position: absolute;
+        top: 30px;
+        left: 16px;
+    }
+
+    &__img-num-two {
+        background-image: url(../img/img-num-two.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 16px;
+        left: 16px;
+    }
+
+    &__img-leaf {
+        background-image: url(../img/leaf-img.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        width: 220px;
+        height: 130px;
+        position: absolute;
+        top: 30px;
+        left: 16px;
+    }
+
+    &__img-three {
+        background-image: url(../img/img-num-three.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 16px;
+        left: 16px;
+    }
+
+    &__img-wood {
+        background-image: url(../img/wood-img.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        width: 220px;
+        height: 130px;
+        position: absolute;
+        top: 30px;
+        left: 16px;
+    }
+    &__img-four {
+        background-image: url(../img/img-num-four.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 16px;
+        left: 16px;
+    }
+    &__img {
+        width: 268px;
+    }
+
+    &__chapter {
+        padding: 15px;
+    }
+    &__plant {
+        color: #FFFFFF;
+        font-family: Cormorant;
+        margin-bottom: 8px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &__text {
+        font-family: "Open Sans", sans-serif;
+        color: #899D9D;
+        margin-bottom: 16px;
+        max-width: 223px;
+        height: 168px;
+    }
+    &__frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        color: #BAE249;
+        border: 1px solid #BAE249;
+        width: 145px;
+        height: 45px;
+    }
+    &__arrows {
+        display: flex;
+        column-gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 54px;
+    }
+    &__numbers {
+        margin: 0;
+        font-size: 24px;
+        color: #FFFFFF;
+        font-family: Cormorant;
+    }
+
+    // section two
+
+    &__new-artifacts {
+        padding: 0 30px 90px;
+        max-width: 1286px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 48px;
+        color: #FFFFFF;
+        margin: 0;
+        font-weight: 700;
+        font-family: Cormorant;
+        font-style: italic;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    &__image-cards {
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    &__img-card {
+        background-image: url(../img/main-img-two.png);
+        width: 865px;
+        height: 510px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 30px;
+    }
+
+    &__nehrung {
+        background-color: #BAE249;
+        width: 288px;
+        height: 510px;
+        padding: 18px;
+    }
+
+    &__title-nehrung {
+        font-family: Cormorant;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    &__text-nehrung {
+        width: 223px;
+        padding-bottom: 32px;
+        width: 223px;
+        color: #455a22;
+        font-size: "Open Sans", sans-serif;
+    }
+
+    &__text-nehrung-two {
+        padding-bottom: 120px;
+        width: 223px;
+        color: #455a22;
+    }
+    
+    &__explore-arrow {
+        display: flex;
+        align-items: center;
+        column-gap: 9px;
+    }
+    
+    &__explore {
+        font-weight: 700;
+        font-size: "Open Sans", sans-serif;
+    }
+
+    // section three
+
+    &__help {
+        background-image: url(../img/header-img.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+    &__wraper {
+        padding: 0 30px;
+        max-width: 1212px;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    &__title-help {
+        font-size: 48px;
+        margin: 0;
+        font-family: Cormorant;
+        font-style: italic;
+        color: #FFFFFF;
+    }
+    &__text-help {
+        font-family: "Open Sans", sans-serif;
+        color: #FFFFFF;
+        max-width: 870px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    &__input {
+        width: 350px;
+        height: 45px;
+        padding-left: 16px;
+    }
+    &__btn {
+        width: 145px;
+        height: 45px;
+        background-color: #BAE249;
+        border: none;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,23 @@
+.footer {
+    &__wraper {
+        background-color: #0B1919;
+        text-align: center;
+        padding: 20px 0;
+    }
+    &__icon {
+        padding-right: 35px;
+        &:last-child {
+            padding: 0;
+        }
+    }
+    &__text {
+        text-align: center;
+        margin: 0;
+        background-color: #1D2F30;
+        padding: 7px 0 6px 0;
+        font-size: 12px;
+        color: #899D9D;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+    }
+}
